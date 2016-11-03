@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7791459D1DCAC34A00A24562 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7791459C1DCAC34A00A24562 /* main.m */; };
+		779145A01DCAC34A00A24562 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7791459F1DCAC34A00A24562 /* AppDelegate.m */; };
+		779145A31DCAC34A00A24562 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779145A21DCAC34A00A24562 /* ViewController.m */; };
+		779145A61DCAC34A00A24562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779145A41DCAC34A00A24562 /* Main.storyboard */; };
+		779145A81DCAC34A00A24562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779145A71DCAC34A00A24562 /* Assets.xcassets */; };
+		779145AB1DCAC34A00A24562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779145A91DCAC34A00A24562 /* LaunchScreen.storyboard */; };
+		779145B61DCAC34A00A24562 /* Textview________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 779145B51DCAC34A00A24562 /* Textview________Tests.m */; };
+		779145C11DCAC34A00A24562 /* Textview________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 779145C01DCAC34A00A24562 /* Textview________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		779145B21DCAC34A00A24562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 779145901DCAC34A00A24562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 779145971DCAC34A00A24562;
+			remoteInfo = "Textview精确计算限制行数";
+		};
+		779145BD1DCAC34A00A24562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 779145901DCAC34A00A24562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 779145971DCAC34A00A24562;
+			remoteInfo = "Textview精确计算限制行数";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		779145981DCAC34A00A24562 /* Textview精确计算限制行数.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Textview精确计算限制行数.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7791459C1DCAC34A00A24562 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7791459E1DCAC34A00A24562 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7791459F1DCAC34A00A24562 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		779145A11DCAC34A00A24562 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		779145A21DCAC34A00A24562 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		779145A51DCAC34A00A24562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		779145A71DCAC34A00A24562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		779145AA1DCAC34A00A24562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		779145AC1DCAC34A00A24562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779145B11DCAC34A00A24562 /* Textview精确计算限制行数Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Textview精确计算限制行数Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		779145B51DCAC34A00A24562 /* Textview________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Textview________Tests.m"; sourceTree = "<group>"; };
+		779145B71DCAC34A00A24562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779145BC1DCAC34A00A24562 /* Textview精确计算限制行数UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Textview精确计算限制行数UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		779145C01DCAC34A00A24562 /* Textview________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Textview________UITests.m"; sourceTree = "<group>"; };
+		779145C21DCAC34A00A24562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		779145951DCAC34A00A24562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779145AE1DCAC34A00A24562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779145B91DCAC34A00A24562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7791458F1DCAC34A00A24562 = {
+			isa = PBXGroup;
+			children = (
+				7791459A1DCAC34A00A24562 /* Textview精确计算限制行数 */,
+				779145B41DCAC34A00A24562 /* Textview精确计算限制行数Tests */,
+				779145BF1DCAC34A00A24562 /* Textview精确计算限制行数UITests */,
+				779145991DCAC34A00A24562 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		779145991DCAC34A00A24562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				779145981DCAC34A00A24562 /* Textview精确计算限制行数.app */,
+				779145B11DCAC34A00A24562 /* Textview精确计算限制行数Tests.xctest */,
+				779145BC1DCAC34A00A24562 /* Textview精确计算限制行数UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7791459A1DCAC34A00A24562 /* Textview精确计算限制行数 */ = {
+			isa = PBXGroup;
+			children = (
+				7791459E1DCAC34A00A24562 /* AppDelegate.h */,
+				7791459F1DCAC34A00A24562 /* AppDelegate.m */,
+				779145A11DCAC34A00A24562 /* ViewController.h */,
+				779145A21DCAC34A00A24562 /* ViewController.m */,
+				779145A41DCAC34A00A24562 /* Main.storyboard */,
+				779145A71DCAC34A00A24562 /* Assets.xcassets */,
+				779145A91DCAC34A00A24562 /* LaunchScreen.storyboard */,
+				779145AC1DCAC34A00A24562 /* Info.plist */,
+				7791459B1DCAC34A00A24562 /* Supporting Files */,
+			);
+			path = "Textview精确计算限制行数";
+			sourceTree = "<group>";
+		};
+		7791459B1DCAC34A00A24562 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7791459C1DCAC34A00A24562 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		779145B41DCAC34A00A24562 /* Textview精确计算限制行数Tests */ = {
+			isa = PBXGroup;
+			children = (
+				779145B51DCAC34A00A24562 /* Textview________Tests.m */,
+				779145B71DCAC34A00A24562 /* Info.plist */,
+			);
+			path = "Textview精确计算限制行数Tests";
+			sourceTree = "<group>";
+		};
+		779145BF1DCAC34A00A24562 /* Textview精确计算限制行数UITests */ = {
+			isa = PBXGroup;
+			children = (
+				779145C01DCAC34A00A24562 /* Textview________UITests.m */,
+				779145C21DCAC34A00A24562 /* Info.plist */,
+			);
+			path = "Textview精确计算限制行数UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		779145971DCAC34A00A24562 /* Textview精确计算限制行数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779145C51DCAC34A00A24562 /* Build configuration list for PBXNativeTarget "Textview精确计算限制行数" */;
+			buildPhases = (
+				779145941DCAC34A00A24562 /* Sources */,
+				779145951DCAC34A00A24562 /* Frameworks */,
+				779145961DCAC34A00A24562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Textview精确计算限制行数";
+			productName = "Textview精确计算限制行数";
+			productReference = 779145981DCAC34A00A24562 /* Textview精确计算限制行数.app */;
+			productType = "com.apple.product-type.application";
+		};
+		779145B01DCAC34A00A24562 /* Textview精确计算限制行数Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779145C81DCAC34A00A24562 /* Build configuration list for PBXNativeTarget "Textview精确计算限制行数Tests" */;
+			buildPhases = (
+				779145AD1DCAC34A00A24562 /* Sources */,
+				779145AE1DCAC34A00A24562 /* Frameworks */,
+				779145AF1DCAC34A00A24562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				779145B31DCAC34A00A24562 /* PBXTargetDependency */,
+			);
+			name = "Textview精确计算限制行数Tests";
+			productName = "Textview精确计算限制行数Tests";
+			productReference = 779145B11DCAC34A00A24562 /* Textview精确计算限制行数Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		779145BB1DCAC34A00A24562 /* Textview精确计算限制行数UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779145CB1DCAC34A00A24562 /* Build configuration list for PBXNativeTarget "Textview精确计算限制行数UITests" */;
+			buildPhases = (
+				779145B81DCAC34A00A24562 /* Sources */,
+				779145B91DCAC34A00A24562 /* Frameworks */,
+				779145BA1DCAC34A00A24562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				779145BE1DCAC34A00A24562 /* PBXTargetDependency */,
+			);
+			name = "Textview精确计算限制行数UITests";
+			productName = "Textview精确计算限制行数UITests";
+			productReference = 779145BC1DCAC34A00A24562 /* Textview精确计算限制行数UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		779145901DCAC34A00A24562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "漫漫";
+				TargetAttributes = {
+					779145971DCAC34A00A24562 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQSV9JS5Z8;
+						ProvisioningStyle = Automatic;
+					};
+					779145B01DCAC34A00A24562 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQSV9JS5Z8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 779145971DCAC34A00A24562;
+					};
+					779145BB1DCAC34A00A24562 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQSV9JS5Z8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 779145971DCAC34A00A24562;
+					};
+				};
+			};
+			buildConfigurationList = 779145931DCAC34A00A24562 /* Build configuration list for PBXProject "Textview精确计算限制行数" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7791458F1DCAC34A00A24562;
+			productRefGroup = 779145991DCAC34A00A24562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				779145971DCAC34A00A24562 /* Textview精确计算限制行数 */,
+				779145B01DCAC34A00A24562 /* Textview精确计算限制行数Tests */,
+				779145BB1DCAC34A00A24562 /* Textview精确计算限制行数UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		779145961DCAC34A00A24562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779145AB1DCAC34A00A24562 /* LaunchScreen.storyboard in Resources */,
+				779145A81DCAC34A00A24562 /* Assets.xcassets in Resources */,
+				779145A61DCAC34A00A24562 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779145AF1DCAC34A00A24562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779145BA1DCAC34A00A24562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		779145941DCAC34A00A24562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779145A31DCAC34A00A24562 /* ViewController.m in Sources */,
+				779145A01DCAC34A00A24562 /* AppDelegate.m in Sources */,
+				7791459D1DCAC34A00A24562 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779145AD1DCAC34A00A24562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779145B61DCAC34A00A24562 /* Textview________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779145B81DCAC34A00A24562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779145C11DCAC34A00A24562 /* Textview________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		779145B31DCAC34A00A24562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 779145971DCAC34A00A24562 /* Textview精确计算限制行数 */;
+			targetProxy = 779145B21DCAC34A00A24562 /* PBXContainerItemProxy */;
+		};
+		779145BE1DCAC34A00A24562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 779145971DCAC34A00A24562 /* Textview精确计算限制行数 */;
+			targetProxy = 779145BD1DCAC34A00A24562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		779145A41DCAC34A00A24562 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				779145A51DCAC34A00A24562 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		779145A91DCAC34A00A24562 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				779145AA1DCAC34A00A24562 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		779145C31DCAC34A00A24562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		779145C41DCAC34A00A24562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		779145C61DCAC34A00A24562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = "Textview精确计算限制行数/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miss.liuxinxin.Textview--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		779145C71DCAC34A00A24562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = "Textview精确计算限制行数/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miss.liuxinxin.Textview--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		779145C91DCAC34A00A24562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = "Textview精确计算限制行数Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miss.liuxinxin.Textview--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Textview精确计算限制行数.app/Textview精确计算限制行数";
+			};
+			name = Debug;
+		};
+		779145CA1DCAC34A00A24562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = "Textview精确计算限制行数Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miss.liuxinxin.Textview--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Textview精确计算限制行数.app/Textview精确计算限制行数";
+			};
+			name = Release;
+		};
+		779145CC1DCAC34A00A24562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = "Textview精确计算限制行数UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miss.liuxinxin.Textview--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Textview精确计算限制行数";
+			};
+			name = Debug;
+		};
+		779145CD1DCAC34A00A24562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = "Textview精确计算限制行数UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miss.liuxinxin.Textview--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Textview精确计算限制行数";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		779145931DCAC34A00A24562 /* Build configuration list for PBXProject "Textview精确计算限制行数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779145C31DCAC34A00A24562 /* Debug */,
+				779145C41DCAC34A00A24562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779145C51DCAC34A00A24562 /* Build configuration list for PBXNativeTarget "Textview精确计算限制行数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779145C61DCAC34A00A24562 /* Debug */,
+				779145C71DCAC34A00A24562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		779145C81DCAC34A00A24562 /* Build configuration list for PBXNativeTarget "Textview精确计算限制行数Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779145C91DCAC34A00A24562 /* Debug */,
+				779145CA1DCAC34A00A24562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		779145CB1DCAC34A00A24562 /* Build configuration list for PBXNativeTarget "Textview精确计算限制行数UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779145CC1DCAC34A00A24562 /* Debug */,
+				779145CD1DCAC34A00A24562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 779145901DCAC34A00A24562 /* Project object */;
+}
