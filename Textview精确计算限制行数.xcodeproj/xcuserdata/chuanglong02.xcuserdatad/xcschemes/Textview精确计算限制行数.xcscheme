@@ -81,6 +81,13 @@
             ReferencedContainer = "container:Textview&#x7cbe;&#x786e;&#x8ba1;&#x7b97;&#x9650;&#x5236;&#x884c;&#x6570;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "Disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

@@ -23,7 +23,8 @@
     textview.backgroundColor =[UIColor redColor];
     textview.font =[UIFont systemFontOfSize:25.0];
     textview.delegate = self;
-    NSLog(@"%@",NSStringFromUIEdgeInsets(textview.textContainerInset));
+//    NSLog(@"%@",NSStringFromUIEdgeInsets(textview.textContainerInset));
+   
     textview.textContainerInset = UIEdgeInsetsMake(8, 0, 8, 0);
     [self.view addSubview:textview];
     
@@ -31,20 +32,26 @@
 }
 -(void)textViewDidChange:(UITextView *)textView
 {
+    
     CGFloat labelHeight = textView.contentSize.height - 16;
     
     CGFloat count = (labelHeight) / textView.font.lineHeight;
-    
+   
+  
     if (count  < 5) {
         textView.frame = CGRectMake(0, 64, 350, count *textView.font.lineHeight +16);
-        
-        
+
     }else
     {
-        textView.frame = CGRectMake(0, 64, 350, 5 *textView.font.lineHeight );
-        NSLog(@"%f",textView.frame.size.height);
+        textView.frame = CGRectMake(0, 64, 350, 5 *textView.font.lineHeight);
+
+        
     }
-    
+    [textView scrollRangeToVisible:NSMakeRange(textView.text.length, 1)];
+   
+   
+   
+
 }
 
 @end
